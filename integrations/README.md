@@ -22,6 +22,13 @@ Integration with NVIDIA's AI model ecosystem:
 - Performance optimization examples
 - Multiple example implementations (intro, marketing strategy)
 
+
+### 4. AiEnsured agentest
+Offline behavioral testing for recorded CrewAI traces using `agentest-ai`:
+- Runs 165 deterministic checks without an LLM judge or API key
+- Catches success claims after failed tool calls, ungrounded outputs, and out-of-order actions
+- Exports CrewAI tool events to OpenTelemetry GenAI traces for CI regression checks
+
 ## Integration Patterns
 
 These examples demonstrate:

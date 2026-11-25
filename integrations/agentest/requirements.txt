@@ -1,0 +1,2 @@
+agentest-ai>=3.6.0
+crewai>=0.130.0
